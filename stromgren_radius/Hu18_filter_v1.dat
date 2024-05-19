@@ -1,0 +1,49 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: ID, datatype: string}
+# - {name: RA, datatype: string}
+# - {name: DEC, datatype: string}
+# - {name: logLLya, unit: dex(erg / s), datatype: float64}
+# - {name: E_logLLya, unit: dex(erg / s), datatype: float64}
+# - {name: e_logLLya, unit: dex(erg / s), datatype: float64}
+# - {name: Redshift, datatype: float64}
+# - {name: DECam-NB964, unit: mag, datatype: float64}
+# - {name: e_DECam-NB964, unit: mag, datatype: float64}
+# - {name: HSC-NB973, unit: mag, datatype: float64}
+# - {name: HSC-y, unit: mag, datatype: float64}
+# - {name: e_HSC-y, unit: mag, datatype: float64}
+# - {name: R, unit: cMpc, datatype: float64}
+# - {name: ID_H19, datatype: string}
+# - {name: R_s, unit: pMpc, datatype: float64}
+# - {name: e_R_s, unit: pMpc, datatype: float64}
+# - {name: E_R_s, unit: pMpc, datatype: float64}
+# - {name: R_s_com, unit: cMpc, datatype: float64}
+# - {name: e_R_s_com, unit: cMpc, datatype: float64}
+# - {name: E_R_s_com, unit: cMpc, datatype: float64}
+# - {name: f_esc_Lya, datatype: float64}
+# - {name: logLLya_int, unit: dex(erg / s), datatype: float64}
+# - {name: e_logLLya_int, unit: dex(erg / s), datatype: float64}
+# - {name: E_logLLya_int, unit: dex(erg / s), datatype: float64}
+# - {name: EW_HU, datatype: float64}
+# - {name: logN_ion, unit: dex(1 / s), datatype: float64}
+# - {name: e_logN_ion, unit: dex(1 / s), datatype: float64}
+# - {name: E_logN_ion, unit: dex(1 / s), datatype: float64}
+# schema: astropy-2.0
+ID RA DEC logLLya E_logLLya e_logLLya Redshift DECam-NB964 e_DECam-NB964 HSC-NB973 HSC-y e_HSC-y R ID_H19 R_s e_R_s E_R_s R_s_com e_R_s_com E_R_s_com f_esc_Lya logLLya_int e_logLLya_int E_logLLya_int EW_HU logN_ion e_logN_ion E_logN_ion
+LAE-1 10:02:06.0 +02:06:46.3 43.54 0.03 0.03 6.938 23.08 0.06 23.77 25.3 0.33 14.5 COSMOS-1 1.325 0.008 0.008 10.516 0.061 0.061 0.43 43.906 0.07 0.07 89.63 54.229 0.07 0.07
+LAE-2 10:01:53.5 +02:04:59.8 43.33 0.07 0.08 6.932 23.22 0.1 24.75 24.11 0.12 11.5 COSMOS-3 1.699 0.09 0.078 13.473 0.711 0.622 0.126 44.228 0.633 0.554 26.33 54.551 0.633 0.554
+LAE-3 10:03:10.5 +02:12:30.8 43.49 0.04 0.05 6.923 23.17 0.08 nan 25.15 0.33 13.7 COSMOS-2 1.377 0.017 0.013 10.912 0.132 0.106 0.345 43.952 0.145 0.116 71.86 54.275 0.145 0.116
+LAE-4 10:03:32.7 +02:09:25.1 43.04 0.09 0.11 6.9 24.33 0.16 nan 26.42 0.7 8.5 COSMOS-10 0.948 0.023 0.019 7.488 0.18 0.147 0.382 43.458 0.288 0.236 79.52 53.781 0.288 0.236
+LAE-5 10:03:30.7 +02:14:08.5 43.03 0.07 0.08 6.899 24.37 0.13 nan 26.63 0.58 8.0 N$^a$ 0.893 0.013 0.012 7.054 0.105 0.092 0.446 43.38 0.179 0.157 93.0 53.703 0.179 0.157
+LAE-6 10:03:28.0 +02:08:51.3 43.03 0.1 0.14 6.915 24.34 0.23 nan 26.45 0.34 7.3 N$^a$ 0.931 0.028 0.02 7.373 0.221 0.158 0.389 43.44 0.36 0.257 81.0 53.763 0.36 0.257
+LAE-7 10:03:05.2 +02:09:14.7 42.79 0.12 0.17 6.945 24.69 0.19 24.28 25.81 0.35 6.1 N$^b$ 1.043 0.095 0.067 8.283 0.751 0.53 0.156 43.596 1.088 0.768 32.54 53.919 1.088 0.768
+LAE-9 10:03:16.0 +02:15:42.3 42.7 0.13 0.2 6.92 24.95 0.21 nan 26.13 0.45 6.4 N$^a$ 0.961 0.097 0.063 7.61 0.769 0.5 0.165 43.482 1.212 0.788 34.39 53.805 1.212 0.788
+LAE-10 10:02:42.3 +02:06:55.2 42.56 0.13 0.18 6.922 25.29 0.22 nan 26.42 0.28 5.8 N$^a$ 0.876 0.083 0.06 6.939 0.661 0.477 0.158 43.362 1.142 0.825 32.84 53.685 1.142 0.825
+LAE-11 10:02:39.4 +02:07:12.1 42.69 0.11 0.15 6.962 25.13 0.21 24.78 26.84 0.53 6.4 COSMOS-41 0.802 0.037 0.027 6.387 0.297 0.218 0.269 43.26 0.558 0.409 56.04 53.583 0.558 0.409
+LAE-13 10:02:33.5 +02:07:09.5 42.68 0.12 0.16 6.936 25.14 0.2 nan 26.85 0.69 6.4 COSMOS-42 0.801 0.04 0.03 6.357 0.315 0.236 0.269 43.25 0.595 0.446 56.04 53.573 0.595 0.446
+LAE-15 10:02:23.4 +02:05:04.8 43.38 nan nan 6.971 25.04 0.19 23.68 26.41 0.34 12.1 COSMOS-49 1.509 nan nan 12.029 nan nan 0.197 44.086 nan nan 40.97 54.409 nan nan
+LAE-16 10:02:32.9 +02:05:52.8 42.85 0.08 0.1 6.915 24.82 0.18 nan 27.2 nan 7.3 COSMOS-29 0.747 0.013 0.01 5.911 0.099 0.079 0.499 43.152 0.201 0.16 103.86 53.475 0.201 0.16
+LAE-17 10:03:33.5 +02:07:19.8 42.94 0.09 0.11 6.917 24.61 0.2 nan 27.2 nan 7.9 COSMOS-17 0.75 0.011 0.009 5.937 0.09 0.074 0.605 43.158 0.182 0.149 126.03 53.481 0.182 0.149
+LAE-18 10:03:37.3 +02:07:36.7 42.86 0.08 0.1 6.953 24.81 0.18 nan 27.2 nan 7.3 COSMOS-27 0.743 0.012 0.01 5.913 0.098 0.078 0.503 43.158 0.199 0.159 104.82 53.481 0.199 0.159
+LAE-19 10:03:39.3 +02:07:47.2 42.69 0.16 0.25 6.943 24.91 0.22 nan 25.93 0.5 6.4 COSMOS-34 0.996 0.146 0.093 7.912 1.157 0.741 0.142 43.536 1.755 1.123 29.68 53.859 1.755 1.123

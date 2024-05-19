@@ -1,0 +1,28 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: Source, datatype: int64}
+# - {name: z, datatype: float64}
+# - {name: SFR_Ha, unit: solMass / yr, datatype: float64}
+# - {name: e_SFR_Ha, unit: solMass / yr, datatype: float64}
+# - {name: 12+log(0/H), datatype: float64}
+# - {name: e_12+log(0/H), datatype: float64}
+# - {name: log(M/Msun), datatype: float64}
+# - {name: E_log(M/Msun), datatype: float64}
+# - {name: e_log(M/Msun), datatype: float64}
+# - {name: R_s, unit: pMpc, datatype: float64}
+# - {name: e_R_s, unit: pMpc, datatype: float64}
+# - {name: R_s_com, unit: cMpc, datatype: float64}
+# - {name: e_R_s_com, unit: cMpc, datatype: float64}
+# - {name: logN_ion, unit: dex(1 / s), datatype: float64}
+# - {name: e_logN_ion, unit: dex(1 / s), datatype: float64}
+# schema: astropy-2.0
+Source z SFR_Ha e_SFR_Ha 12+log(0/H) e_12+log(0/H) log(M/Msun) E_log(M/Msun) e_log(M/Msun) R_s e_R_s R_s_com e_R_s_com logN_ion e_logN_ion
+18924 7.7 0.33 0.02 6.95 0.15 5.88 0.13 0.08 0.33 0.007 2.874 0.058 52.645 0.026
+16155 6.87 0.92 0.04 7.01 0.19 6.61 0.07 0.06 0.562 0.008 4.422 0.064 53.09 0.019
+23920 6.0 1.32 0.04 6.84 0.06 6.3 0.03 0.03 0.792 0.008 5.545 0.056 53.247 0.013
+12899 6.88 0.49 0.02 6.7 0.15 6.54 0.14 0.19 0.454 0.006 3.58 0.049 52.816 0.018
+8613 6.38 0.78 0.07 6.97 0.18 7.12 0.07 0.08 0.601 0.018 4.435 0.133 53.018 0.039
+23619 6.72 0.85 0.07 7.19 0.2 6.57 0.1 0.06 0.568 0.016 4.382 0.12 53.056 0.036
+38335 6.23 1.0 0.16 7.46 0.32 6.83 0.25 0.2 0.679 0.036 4.908 0.262 53.126 0.069
+27335 6.76 0.73 0.1 6.99 0.18 6.73 0.15 0.08 0.534 0.024 4.146 0.189 52.989 0.059

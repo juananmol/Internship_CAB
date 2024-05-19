@@ -1,0 +1,29 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: ID, datatype: string}
+# - {name: z, datatype: float64}
+# - {name: e_z, datatype: float64}
+# - {name: F_Lya, unit: erg / (s cm2), datatype: float64}
+# - {name: EW_0, unit: Angstrom, datatype: float64}
+# - {name: log(M/Msun), datatype: float64}
+# - {name: E_log(M/Msun), datatype: float64}
+# - {name: e_log(M/Msun), datatype: float64}
+# - {name: SFR, unit: solMass / yr, datatype: float64}
+# - {name: E_SFR, unit: solMass / yr, datatype: float64}
+# - {name: e_SFR, unit: solMass / yr, datatype: float64}
+# - {name: 12+log(0/H), datatype: float64}
+# - {name: E_12+log(0/H), datatype: float64}
+# - {name: e_12+log(0/H), datatype: float64}
+# - {name: R_s, unit: pMpc, datatype: float64}
+# - {name: e_R_s, unit: pMpc, datatype: float64}
+# - {name: E_R_s, unit: pMpc, datatype: float64}
+# - {name: R_s_com, unit: cMpc, datatype: float64}
+# - {name: e_R_s_com, unit: cMpc, datatype: float64}
+# - {name: E_R_s_com, unit: cMpc, datatype: float64}
+# - {name: logN_ion, unit: dex(1 / s), datatype: float64}
+# - {name: e_logN_ion, unit: dex(1 / s), datatype: float64}
+# - {name: E_logN_ion, unit: dex(1 / s), datatype: float64}
+# schema: astropy-2.0
+ID z e_z F_Lya EW_0 log(M/Msun) E_log(M/Msun) e_log(M/Msun) SFR E_SFR e_SFR 12+log(0/H) E_12+log(0/H) e_12+log(0/H) R_s e_R_s E_R_s R_s_com e_R_s_com E_R_s_com logN_ion e_logN_ion E_logN_ion
+G2 9.51 0.01 3.9e-18 31.0 7.63 0.22 0.24 1.69 0.51 0.34 7.48 0.07 0.05 0.392 0.026 0.039 4.117 0.276 0.414 53.354 0.087 0.131

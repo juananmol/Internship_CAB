@@ -1,0 +1,36 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: ID, datatype: string}
+# - {name: RA_J2000, datatype: string}
+# - {name: DEC_J2000, datatype: string}
+# - {name: NB, unit: mag, datatype: float64}
+# - {name: e_NB, unit: mag, datatype: float64}
+# - {name: F125W, unit: mag, datatype: float64}
+# - {name: e_F125W, unit: mag, datatype: float64}
+# - {name: F160W, unit: mag, datatype: float64}
+# - {name: e_F160W, unit: mag, datatype: float64}
+# - {name: z_spec, datatype: float64}
+# - {name: logfLya, unit: dex(erg / s), datatype: float64}
+# - {name: e_logfLya, unit: dex(erg / s), datatype: float64}
+# - {name: EW_rest, unit: Angstrom, datatype: float64}
+# - {name: e_EW_rest, unit: Angstrom, datatype: float64}
+# - {name: logLLya, unit: dex(erg / s), datatype: float64}
+# - {name: e_logLLya, unit: dex(erg / s), datatype: float64}
+# - {name: HII_radii, unit: pMpc, datatype: float64}
+# - {name: SNR, datatype: float64}
+# - {name: R_s, unit: pMpc, datatype: float64}
+# - {name: e_R_s, unit: pMpc, datatype: float64}
+# - {name: R_s_com, unit: cMpc, datatype: float64}
+# - {name: e_R_s_com, unit: cMpc, datatype: float64}
+# - {name: f_esc_Lya, datatype: float64}
+# - {name: e_f_esc_Lya, datatype: float64}
+# - {name: logLLya_int, unit: dex(erg / s), datatype: float64}
+# - {name: e_logLLya_int, unit: dex(erg / s), datatype: float64}
+# - {name: logN_ion, unit: dex(1 / s), datatype: float64}
+# - {name: e_logN_ion, unit: dex(1 / s), datatype: float64}
+# schema: astropy-2.0
+ID RA_J2000 DEC_J2000 NB e_NB F125W e_F125W F160W e_F160W z_spec logfLya e_logfLya EW_rest e_EW_rest logLLya e_logLLya HII_radii SNR R_s e_R_s R_s_com e_R_s_com f_esc_Lya e_f_esc_Lya logLLya_int e_logLLya_int logN_ion e_logN_ion
+z8_SM 14:20:35.694 +53:00:09.318 24.76 0.35 26.76 0.13 26.66 0.11 7.767 -17.538 0.207 23.0 6.0 42.301 0.5 0.55 4.9 0.668 0.252 5.854 2.209 0.11 0.029 43.258 4.529 53.58 4.529
+z8_4 14:20:35.169 +52:59:40.613 23.85 0.15 27.25 0.21 27.1 0.16 7.748 -17.252 0.161 71.0 18.0 42.602 0.25 0.69 6.0 0.58 0.035 5.075 0.31 0.341 0.086 43.07 0.734 53.392 0.734
+z8_5 14:20:34.872 +53:00:15.242 23.6 0.12 25.29 0.03 25.08 0.03 7.728 -16.77 0.082 37.0 3.0 43.079 0.083 1.02 12.1 1.044 0.041 9.112 0.355 0.178 0.014 43.83 0.467 54.152 0.467
